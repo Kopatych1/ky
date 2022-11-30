@@ -18,9 +18,18 @@ public class MainActivity extends AppCompatActivity{
        Button Schedule = (Button) findViewById(R.id.ButtonSchedule);
        Button Health = (Button) findViewById(R.id.ButtonHealth);
        Button Guide = (Button) findViewById(R.id.ButtonGuide);
+       Button Profile = (Button) findViewById(R.id.ButtonProfile);
 
        Intent intent = new Intent();
 
+       Profile.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent intent = new Intent();
+               intent.setClass(MainActivity.this,Profile.class);
+               startActivity(intent);
+           }
+       });
        Schedule.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
