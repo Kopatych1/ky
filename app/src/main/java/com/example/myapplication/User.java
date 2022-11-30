@@ -27,8 +27,5 @@ public class User {
     public void setSpecie(String specie){
         this.specie = specie;
     }
-}
-    public void setSpecie(String specie){
-        this.specie = specie;
-    }
+
 }
