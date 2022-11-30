@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Schedule">Расписание</string>
+    <string name="Quality">Качество ухода</string>
+    <string name="Health">Здоровье</string>
+    <string name="Guide">Справочник</string>
+</resources>
