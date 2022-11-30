@@ -28,3 +28,7 @@ public class User {
         this.specie = specie;
     }
 }
+    public void setSpecie(String specie){
+        this.specie = specie;
+    }
+}
