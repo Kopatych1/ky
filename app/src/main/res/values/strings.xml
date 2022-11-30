@@ -4,4 +4,7 @@
     <string name="Quality">Качество ухода</string>
     <string name="Health">Здоровье</string>
     <string name="Guide">Справочник</string>
+    <string name="Name">Имя</string>
+    <string name="Age">Лет</string>
+    <string name="Species">Порода</string>
 </resources>
