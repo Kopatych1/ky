@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import java.io.Serializable;
 
@@ -28,7 +29,7 @@ public class Profile extends AppCompatActivity {
         imageView = (ImageView)findViewById(R.id.imageView);
 
         //Связываемся с нашей кнопкой Button:
-        Button PickImage = (Button) findViewById(R.id.ButtonImage);
+        ImageButton PickImage = (ImageButton) findViewById(R.id.ButtonImage);
         //Настраиваем для нее обработчик нажатий OnClickListener:
 
         PickImage.setOnClickListener(new OnClickListener() {
