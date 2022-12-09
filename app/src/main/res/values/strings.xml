@@ -5,6 +5,10 @@
     <string name="Health">Здоровье</string>
     <string name="Guide">Справочник</string>
     <string name="Name">Имя</string>
-    <string name="Age">Лет</string>
+    <string name="Age">Возраст</string>
     <string name="Species">Порода</string>
+    <string name="Food">Питание</string>
+    <string name="Test">Тест</string>
+    <string name="Care">Уход</string>
+    <string name="Diseases">Заболевания</string>
 </resources>
